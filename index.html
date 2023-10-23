@@ -6,9 +6,34 @@
         .header-container {
             display: flex;
             align-items: center;
+            justify-content: center;
+            text-align: center;
         }
         .header-container h1 {
             margin-left: 20px; 
+        }
+        .center-text {
+            text-align: center;
+        }
+        table {
+            width: 80%; 
+            margin: 0 auto; 
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        body {
+            background-image: url("https://raw.githubusercontent.com/RoboticsClubIITJ/ROS_resources/main/image1.png");
+            background-size: cover; 
+            background-repeat: no-repeat;
+            color: white;
+
+        }
+        a {
+            color: rgb(242, 84, 108); 
         }
     </style>
 </head>
@@ -17,11 +42,25 @@
         <img src="https://raw.githubusercontent.com/RoboticsClubIITJ/ROS_resources/main/image.png" alt="Robotics Society, IIT Jodhpur" width="150" height="150">
         <h1>Robotics Society, IIT Jodhpur</h1>
     </div>
-    <h2>ROS Series Video Resources</h2>
-    <p>Click the links below to access the resources</p>
-    <ul>
-        <li><a href="https://www.canva.com/design/DAFx34dnih4/s4Bu34AXuEZgy7TN2_GLLA/edit?utm_content=DAFx34dnih4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">What is ROS and Why do we need it</a></li>
-        <li><a href="https://www.canva.com/design/DAFyEOC9W1g/H2oVtBtWlVgE4zAychP9tQ/edit?utm_content=DAFyEOC9W1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Nodes and Master Nodes</a></li>
-    </ul>
+    <h2 class="center-text">ROS Series Video Resources</h2>
+    <h3><p class="center-text">Click the links below to access the resources</p></h3>
+
+    <table>
+        <tr>
+            <th class="center-text"><h3>Lecture</h3></th>
+            <th class="center-text"><h3>Slide Link</h3></th>
+            <th class="center-text"><h3>Video Link</h3></th>
+        </tr>
+        <tr>
+            <td>What is ROS and Why do we need it</td>
+            <td><a href="https://www.canva.com/design/DAFx34dnih4/s4Bu34AXuEZgy7TN2_GLLA/edit?utm_content=DAFx34dnih4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Slides 1</a></td>
+            <td><a href="https://www.example.com/video1">Video 1</a></td>
+        </tr>
+        <tr>
+            <td>Nodes and Master Nodes</td>
+            <td><a href="https://www.canva.com/design/DAFyEOC9W1g/H2oVtBtWlVgE4zAychP9tQ/edit?utm_content=DAFyEOC9W1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Slides 2</a></td>
+            <td><a href="https://www.example.com/video2">Video 2</a></td>
+        </tr>
+    </table>
 </body>
 </html>
